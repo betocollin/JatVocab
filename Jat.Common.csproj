@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.*</AssemblyVersion>
+    <Deterministic>false</Deterministic>
+    <AssemblyName>CluedIn.Jat.Common</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.2.1" />
+    <PackageReference Include="CluedIn.Core" Version="3.2.5" />
+    <PackageReference Include="CluedIn.Core.Data.Repositories" Version="3.2.5" />
+    <PackageReference Include="CluedIn.Processing" Version="3.2.5" />
+  </ItemGroup>
+
+</Project>
